@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Page Object test example" duration-ms="27821" started-at="2018-05-06T21:03:49Z" finished-at="2018-05-06T21:04:17Z">
+    <groups>
+    </groups>
+    <test name="sample test" duration-ms="27821" started-at="2018-05-06T21:03:49Z" finished-at="2018-05-06T21:04:17Z">
+      <class name="com.nopcommerce.common.tests.LogInTest">
+        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.String, java.lang.String)[pri:0, instance:com.nopcommerce.common.tests.LogInTest@3532ec19]" name="initializeTestBaseSetup" is-config="true" duration-ms="16611" started-at="2018-05-07T02:33:49Z" finished-at="2018-05-07T02:34:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.nopcommerce.com/Demo.aspx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.nopcommerce.common.tests.LogInTest@3532ec19]" name="setup" is-config="true" duration-ms="0" started-at="2018-05-07T02:34:06Z" finished-at="2018-05-07T02:34:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyLogInFunction()[pri:0, instance:com.nopcommerce.common.tests.LogInTest@3532ec19]" name="verifyLogInFunction" duration-ms="8746" started-at="2018-05-07T02:34:06Z" finished-at="2018-05-07T02:34:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogInFunction -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nopcommerce.common.tests.LogInTest@3532ec19]" name="tearDown" is-config="true" duration-ms="2416" started-at="2018-05-07T02:34:14Z" finished-at="2018-05-07T02:34:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nopcommerce.common.tests.LogInTest -->
+    </test> <!-- sample test -->
+  </suite> <!-- Page Object test example -->
+</testng-results>

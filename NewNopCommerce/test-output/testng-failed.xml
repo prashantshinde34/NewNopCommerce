@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Page Object test example]">
+  <parameter name="appURL" value="https://www.nopcommerce.com/Demo.aspx"/>
+  <parameter name="browserType" value="firefox"/>
+  <test name="sample test(failed)">
+    <classes>
+      <class name="com.nopcommerce.common.tests.LogInTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="verifyLogInFunction"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- com.nopcommerce.common.tests.LogInTest -->
+    </classes>
+  </test> <!-- sample test(failed) -->
+</suite> <!-- Failed suite [Page Object test example] -->
