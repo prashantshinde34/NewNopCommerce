@@ -4,9 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 
 public class BaseSetup {
@@ -54,7 +52,7 @@ public class BaseSetup {
 	}
 
 	@Parameters({ "browserType", "appURL" })
-	@BeforeTest
+	@BeforeClass
 	public void initializeTestBaseSetup(String browserType, String appURL) {
 		try {
 			setDriver(browserType, appURL);
@@ -64,7 +62,7 @@ public class BaseSetup {
 		}
 	}
 	
-	@AfterTest
+	@AfterClass
 	public void tearDown() {
 		driver.quit();
 	}
