@@ -8,8 +8,8 @@
       <class name="com.nopcommerce.common.tests.LogInTest">
         <methods>
           <include name="tearDown"/>
-          <include name="setup"/>
           <include name="verifyLogInFunction"/>
+          <include name="setup"/>
           <include name="initializeTestBaseSetup"/>
         </methods>
       </class> <!-- com.nopcommerce.common.tests.LogInTest -->

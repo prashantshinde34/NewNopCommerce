@@ -1,8 +1,13 @@
 package com.nopcommerce.common.tests;
 
+import java.util.List;
+
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import com.nopcommerce.base.*;
@@ -36,5 +41,7 @@ public class LogInTest extends BaseSetup {
 		logInPage.enterUserName("pra");
 		logInPage.enterPassword("Testing@123");
 		logInPage.logInButton().click();
+		driver.navigate().back();
 	}
+
 }

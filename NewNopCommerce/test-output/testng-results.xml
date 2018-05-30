@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Page Object test example" duration-ms="27821" started-at="2018-05-06T21:03:49Z" finished-at="2018-05-06T21:04:17Z">
+  <suite name="Page Object test example" duration-ms="67770" started-at="2018-05-16T17:17:48Z" finished-at="2018-05-16T17:18:56Z">
     <groups>
     </groups>
-    <test name="sample test" duration-ms="27821" started-at="2018-05-06T21:03:49Z" finished-at="2018-05-06T21:04:17Z">
+    <test name="sample test" duration-ms="67770" started-at="2018-05-16T17:17:48Z" finished-at="2018-05-16T17:18:56Z">
       <class name="com.nopcommerce.common.tests.LogInTest">
-        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.String, java.lang.String)[pri:0, instance:com.nopcommerce.common.tests.LogInTest@3532ec19]" name="initializeTestBaseSetup" is-config="true" duration-ms="16611" started-at="2018-05-07T02:33:49Z" finished-at="2018-05-07T02:34:06Z">
+        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.String, java.lang.String)[pri:0, instance:com.nopcommerce.common.tests.LogInTest@27efef64]" name="initializeTestBaseSetup" is-config="true" duration-ms="25492" started-at="2018-05-16T22:47:48Z" finished-at="2018-05-16T22:48:14Z">
           <params>
             <param index="0">
               <value>
@@ -23,19 +23,49 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeTestBaseSetup -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.nopcommerce.common.tests.LogInTest@3532ec19]" name="setup" is-config="true" duration-ms="0" started-at="2018-05-07T02:34:06Z" finished-at="2018-05-07T02:34:06Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.nopcommerce.common.tests.LogInTest@27efef64]" name="setup" is-config="true" duration-ms="1" started-at="2018-05-16T22:48:14Z" finished-at="2018-05-16T22:48:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyLogInFunction()[pri:0, instance:com.nopcommerce.common.tests.LogInTest@3532ec19]" name="verifyLogInFunction" duration-ms="8746" started-at="2018-05-07T02:34:06Z" finished-at="2018-05-07T02:34:14Z">
+        <test-method status="PASS" signature="verifyLogInFunction()[pri:0, instance:com.nopcommerce.common.tests.LogInTest@27efef64]" name="verifyLogInFunction" duration-ms="19196" started-at="2018-05-16T22:48:14Z" finished-at="2018-05-16T22:48:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogInFunction -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nopcommerce.common.tests.LogInTest@3532ec19]" name="tearDown" is-config="true" duration-ms="2416" started-at="2018-05-07T02:34:14Z" finished-at="2018-05-07T02:34:17Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nopcommerce.common.tests.LogInTest@27efef64]" name="tearDown" is-config="true" duration-ms="1766" started-at="2018-05-16T22:48:33Z" finished-at="2018-05-16T22:48:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.nopcommerce.common.tests.LogInTest -->
+      <class name="com.nopcommerce.common.tests.DisplayTopMenu">
+        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.String, java.lang.String)[pri:0, instance:com.nopcommerce.common.tests.DisplayTopMenu@6f7fd0e6]" name="initializeTestBaseSetup" is-config="true" duration-ms="19026" started-at="2018-05-16T22:48:35Z" finished-at="2018-05-16T22:48:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.nopcommerce.com/Demo.aspx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.nopcommerce.common.tests.DisplayTopMenu@6f7fd0e6]" name="setup" is-config="true" duration-ms="0" started-at="2018-05-16T22:48:54Z" finished-at="2018-05-16T22:48:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="DisplaytopMenu()[pri:0, instance:com.nopcommerce.common.tests.DisplayTopMenu@6f7fd0e6]" name="DisplaytopMenu" duration-ms="485" started-at="2018-05-16T22:48:54Z" finished-at="2018-05-16T22:48:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DisplaytopMenu -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nopcommerce.common.tests.DisplayTopMenu@6f7fd0e6]" name="tearDown" is-config="true" duration-ms="1783" started-at="2018-05-16T22:48:54Z" finished-at="2018-05-16T22:48:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nopcommerce.common.tests.DisplayTopMenu -->
     </test> <!-- sample test -->
   </suite> <!-- Page Object test example -->
 </testng-results>

@@ -1,5 +1,9 @@
 package com.nopcommerce.base;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+//import org.apache.logging.log4j.LogManager;
+//import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -7,8 +11,10 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 
-public class BaseSetup {
 
+public class BaseSetup {
+	
+	private static final Logger logger = LogManager.getLogger(BaseSetup.class.getName());
 	private WebDriver driver;
 	static String driverPath = System.getProperty("user.dir")+"\\driver\\";
 
@@ -64,6 +70,7 @@ public class BaseSetup {
 	
 	@AfterClass
 	public void tearDown() {
-		driver.quit();
+		System.out.println("tear down");
+		driver.close();
 	}
 }
